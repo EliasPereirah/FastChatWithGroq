@@ -284,7 +284,7 @@ function groqChat() {
         .then(data => {
             let response_cnt = data.choices?.[0]?.message.content ?? '';
             if (!response_cnt){
-                    if(data.error.code === "wrong_api_key"){
+                    if(data.error.code === "invalid_api_key"){
                         invalid_key = true;
                     }else {
                         addWarning(data.message, false);
