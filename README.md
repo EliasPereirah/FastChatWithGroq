@@ -1,5 +1,9 @@
 # FastChatWithGroq: Open-Source Web Interface for Groq Inference API
 
+## New Project
+New project here: https://github.com/EliasPereirah/OrionChat
+Now you can talk not just with Groq models but with a lot more, check it out: https://github.com/EliasPereirah/OrionChat
+
 **FastChatWithGroq** is an open-source, web-based application that allows you to interact with Groq LLMs available models
 seamlessly using your own API key.
 
